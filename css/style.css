@@ -1,0 +1,223 @@
+/* Підключення фрифтів */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+
+/* Локальне підключення шрифтів */
+@import url("./fonts.css");
+
+/* Скидання стилів */
+@import url("./reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Circular", sans-serif;
+	background-color: #333;
+	color: #fff;
+
+}
+
+.header {
+	background-color: #77608d;
+	padding: 20px 20px;
+}
+.header__title {
+	font-family: "Montserrat" sans-serif;
+	font-size: 64px;
+	text-transform: uppercase;
+	color: #E74040;
+	padding-left: 340px;
+	background-color: yellow;
+	margin-bottom: 20px;	
+}
+
+.header span{
+	background-color: #231F8B;
+	
+	
+	
+}
+.header__text {
+	margin-bottom: 20px;
+	font-family: "Montserrat" sans-serif;
+	font-size: 20px;
+
+}
+
+.header__img{
+	margin-top: -40px;
+	padding: 0px 100px;
+	background-color: #E74040;
+	margin-bottom: 20px;
+
+}
+
+.block {
+	/* white-space: nowrap; */
+	font-size: 20px;
+	width: 300px;
+	 height: 100px; 
+	 overflow: scroll;
+	 overflow: hidden; 
+	overflow: auto;
+	margin-bottom: 20px;
+	
+}
+.block2 {
+	white-space: nowrap;
+	font-size: 20px;
+	
+	 height: 50px; 
+	 overflow: scroll;
+	 overflow: hidden; 
+	overflow: auto;
+	
+}
+
+
+.section {
+	background-color: #231F8B;
+	padding: 112px 0;
+
+}
+
+.container {
+	max-width: 1070px;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.advantages {}
+
+.info {
+	margin-bottom: 70px;
+}
+
+.subtitle {
+	color: #5A54F2;
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	margin-bottom: 10px;
+}
+
+.title {
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.text {
+	font-size: 14px;
+	font-weight: 450;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+}
+
+.card {
+	vertical-align: top;
+}
+
+.card__item {
+	width: 230px;
+	display: inline-block;
+	padding: 35px 40px;
+	background-color: #fff;
+	margin-right: 30px;
+	vertical-align: top;
+	
+}
+.card__item-four{
+	width: 230px;
+	display: inline-block;
+	padding: 35px 40px;
+	background-color: #fff;	
+	margin-top: 48px;
+	
+}
+
+.card__item-two {
+	width: 230px;
+	display: inline-block;
+	padding: 35px 40px;
+	background-color: #fff;
+	margin-right: 30px;
+	margin-top: 48px;
+	
+}
+
+.card__item-white{
+	background-color: #5A54F2;
+	width: 230px;
+	display: inline-block;
+	padding: 35px 40px;
+	margin-right: 30px;
+	vertical-align: top;
+}
+
+.card__item-img {
+	margin-bottom: 20px;
+}
+.card__item-img-white {
+	margin-bottom: 20px;
+}
+
+.card__item-title {
+	color: #252B42;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	margin-bottom: 20px;
+}
+
+.card__item-title-white{
+	color: #fff;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	margin-bottom: 20px;
+}
+
+.card__item-line {
+	width: 50px;
+height: 2px;
+background-color: #E74040 ;
+margin-bottom: 20px;
+}
+
+.card__item-line-white{
+	width: 50px;
+height: 2px;
+background-color: #Efff ;
+margin-bottom: 20px;
+}
+
+.card__item-text {
+	color: #737373;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.card__item-text-white {
+	color: #fff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+
+
+
+
+
+
